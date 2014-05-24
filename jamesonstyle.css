@@ -51,22 +51,30 @@ header nav li a:active{
 }
 
 /* Main Content */
-#main-content img{
+#main-content{
 	width: 90%;
-	max-width: 1000px;
-	margin: 40px auto 10px auto;
-	position: relative;
+	max-width: 1025px;
+	margin: 40px auto;
+}
+#main-content img{
 	display: block;
+	margin: 0 auto;
 }
 
 #title{
-	color:white;
-	font-size:32px;
 	position: relative;
-	bottom: 400px;
-	left: 610px; 	
-}	
+	margin: 0;
+	display: inline;
+	top: 400px;
+	left: 600px;
+}
+
+#name{
+	color:white;
+	font-size:50px;
+}
 
 #subtitle{
 	font-size:28px;
-}	
+	color: white;
+}
