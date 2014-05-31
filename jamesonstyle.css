@@ -9,7 +9,6 @@ body{
 
 /* Header */
 header{
-	border-radius: 10px;
 	border-style: solid;
 	background-color: #56080d;
 	color: white;
@@ -18,7 +17,7 @@ header{
 }
 
 header ul{
-	height: 50px;
+	height: 80px;
     margin:0;
     padding:0;
     list-style:none;
@@ -27,9 +26,9 @@ header ul{
 header nav li{
 	float: right;
 	width: 120px;
-	font-size: 20px;
+	font-size: 24px;
 	display: block;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-right: 50px;
 }
 
@@ -54,7 +53,7 @@ header nav li a:active{
 #main-content{
 	width: 90%;
 	max-width: 1025px;
-	margin: 40px auto;
+	margin: 10px auto;
 }
 #main-content img{
 	display: block;
