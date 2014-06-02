@@ -1,7 +1,7 @@
 /* General Styles */
 
 body{
-	font-family: 'Gilda Display', serif;
+	font-family: 'Dosis', sans-serif;
 	margin: 0px auto;
 	min-width: 960px;
 	width: 100%;
@@ -24,6 +24,7 @@ header ul{
 }
 
 header nav li{
+	font-family: 'Dosis', sans-serif;
 	float: right;
 	width: 120px;
 	font-size: 24px;
@@ -61,6 +62,7 @@ header nav li a:active{
 }
 
 #title{
+	font-family: 'Dosis', sans-serif;
 	position: relative;
 	margin: 0;
 	display: inline;
