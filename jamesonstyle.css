@@ -3,7 +3,7 @@
 body{
 	font-family: 'Dosis', sans-serif;
 	margin: 0px auto;
-	min-width: 960px;
+	min-width: 1081px;
 	width: 100%;
 }
 
@@ -21,6 +21,7 @@ header ul{
     margin:0;
     padding:0;
     list-style:none;
+    min-width: 1020px;
 }
 
 header nav li{
@@ -56,11 +57,14 @@ header nav li a:active{
 	max-width: 1025px;
 	margin: -50px auto;
 }
+
+/* Headshot */
 #main-content img{
 	display: block;
 	margin: 0 auto;
 }
 
+/* Name */
 #title{
 	font-family: 'Dosis', sans-serif;
 	position: relative;
@@ -74,8 +78,55 @@ header nav li a:active{
 	color:white;
 	font-size:50px;
 }
-
+ /* title */
 #subtitle{
 	font-size:28px;
 	color: white;
 }
+
+/* Main Content Sub-Spaces */
+/* About Me */
+section.backdrop {
+	position: relative;
+	margin: 100px 5px 100px 25px;
+	max-width: 80%;
+
+}
+/* Millie Pic on About Me */
+#main-content .backdrop img{
+	max-height: 100%;
+	max-width: 100%;
+	opacity: 0.5;
+	margin-left: 0px;
+	padding-right: 5px;
+	border: 0px;
+	float: left;
+}
+
+/* About Me Write-Up */
+#main-content article{
+	display: inline-block;
+	position: relative;
+	float: right;
+	max-width: 45%;
+	text-align: left;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+/* Bolded Par of About Me Write-Up */
+#standout {
+	font-size: 32px;
+	color: #56080d;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
