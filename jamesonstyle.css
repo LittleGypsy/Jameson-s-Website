@@ -147,6 +147,25 @@ section#download-instructions{
 	font-style: italic;
 }
 
+/* Headshots Page */
+#headshots img{
+	display: inline-block;
+	max-width: 500px;
+	max-height: 500px;
+}
+
+#headshot-1 img{
+	float: left;
+}
+
+#headshot-2 img{
+	float: right;
+}
+
+#headshot-3 img{
+	float: left;
+}
+
 
 
 
