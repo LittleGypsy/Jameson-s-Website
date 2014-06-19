@@ -152,10 +152,20 @@ section#download-instructions{
 	display: inline-block;
 	max-width: 500px;
 	max-height: 500px;
+	margin: 20px;
+
+}
+
+#headshot-row-1{
+	max-width: 1080px;
+	min-width: 900px;
+	max-height: 600px;
+	min-height: 550px;
 }
 
 #headshot-1 img{
 	float: left;
+
 }
 
 #headshot-2 img{
@@ -164,6 +174,10 @@ section#download-instructions{
 
 #headshot-3 img{
 	float: left;
+}
+
+#headshot-4 img{
+	float: right;
 }
 
 
