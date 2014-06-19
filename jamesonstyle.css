@@ -150,26 +150,24 @@ section#download-instructions{
 /* Headshots Page */
 #headshots img{
 	display: inline-block;
-	max-width: 500px;
-	max-height: 500px;
-	margin: 20px;
-
+	max-width: 450px;
+	max-height: 450px;
 }
 
 #headshot-row-1{
-	max-width: 1080px;
-	min-width: 900px;
-	max-height: 600px;
-	min-height: 550px;
+	max-height: 900px;
+	max-width: 900px;
+	margin: 50px auto;
 }
 
 #headshot-1 img{
 	float: left;
-
+	margin: 65px 20px 65px 20px; 
 }
 
 #headshot-2 img{
 	float: right;
+	margin: 20px 20px 20px 20px;
 }
 
 #headshot-3 img{
