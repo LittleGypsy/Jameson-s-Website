@@ -5,6 +5,7 @@ body{
 	margin: 0px auto;
 	min-width: 1081px;
 	width: 100%;
+	display: block;
 }
 
 /* Header */
@@ -14,6 +15,7 @@ header{
 	color: white;
 	padding-bottom: 5px;
 	padding-top: 0px;
+	max-width: 1080px;
 }
 
 header ul{
@@ -149,78 +151,66 @@ section#download-instructions{
 }
 
 /* Headshots Page */
-#headshots {
-	background-color: #D3D3D3;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-
-#headshots img{
+div#headshots {
+	width: 80%;
+	max-width: 960px;
 	display: block;
-	max-width: 450px;
-	max-height: 450px;
-	border-style: solid;
-	border-width: 8px;
-	border-color: #767676;
-	margin: 20px;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
 }
 
-/* Header */
 #standout-text-2 {
-	font-size: 38px;
-	color: #56080d;
-	text-align: center;
-	font-family: 'Changa One', cursive;
-	background-color: #D3D3D3;
-}
-
-/* 1st row */
-#headshot-row-1{
 	display: block;
-	position: relative;
-	max-height: 900px;
-	max-width: 1080px;
-	min-width: 900px;
-	margin: 50px auto;
+	text-align: center;
+	margin: 0 auto;
 }
 
-#headshot-1 img{
-	float: left;
-	margin: 20px auto;
+div#headshots img:nth-child(3n) {
+  clear: both; 
 }
 
-#headshot-2 img{
-	float: right;
-	margin: 20px auto;
-}
 
-/* 2nd row */
-#headshot-row-2{
+div#headshots section img{
+	max-width: 400px;
 	display: inline-block;
-	max-height: 900px;
-	max-width: 1180px;
-	min-width: 1100px;
-	margin: 20px auto;
-	padding: 0px;
-	border: 0px;
+	padding: 15px;
+	position: relative;
 }
 
-#headshot-3 img{
+section#headshot-1{
+	margin: 0 auto;
+}
+
+section#headshot-1 img{
 	float: left;
-	margin: 20px auto;
+	margin: 0 auto;
 }
 
-#headshot-4 img{
+section#headshot-2 img{
+	width: 250px;
+	height: 350px;
 	float: right;
-	margin: 20px auto;
+	margin: 0 auto;
+
 }
 
+section#headshot-3 img{
+	float: left;	
+	margin: 0 auto;
 
+}
 
+section#headshot-4 img{
+	float: right;
+	margin: 0 auto;
+}
 
-
-
+#standout-text-2{
+	font-size: 32px;
+	color: #56080d;
+	font-weight: bold;
+}
 
 
 
