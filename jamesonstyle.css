@@ -182,13 +182,14 @@ section#download-instructions{
 	width: 50%;
 	height: 45%;
 	display: block;
-	overflow: hidden;
 }
 
 .headshot-pic img{
 	display: block;
 	max-width: 90%;
 	margin: 50px auto;
+	max-height: 307px;
+	overflow: hidden;
 }
 
 section#headshots article:nth-child(3){
