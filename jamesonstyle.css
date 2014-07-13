@@ -172,11 +172,10 @@ section#download-instructions{
 	height: 100%;
 	margin: 50 auto;
 	position: absolute;
-	padding-bottom: 50px;
 }
 
 .headshot-pic{
-	margin: 50 auto;
+	margin: 50 auto 75 auto;
 	float: left;
 	min-height: 350px;
 	max-height: 600px;
@@ -199,6 +198,7 @@ section#headshots article:nth-child(3){
 #sub-title{
 	display: block;
 	margin: 10px auto;
+	padding-top: 25px;
 	text-align: center;
 	font-size: 36px;
 }
