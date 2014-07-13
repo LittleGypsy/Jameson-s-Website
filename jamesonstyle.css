@@ -5,6 +5,8 @@ body{
 	margin: 0px auto;
 	min-width: 1081px;
 	width: 100%;
+	height: 100%;
+	min-height: 700;
 	display: block;
 }
 
@@ -15,7 +17,9 @@ header{
 	color: white;
 	padding-bottom: 5px;
 	padding-top: 0px;
-	max-width: 1080px;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
 }
 
 header ul{
@@ -24,16 +28,17 @@ header ul{
     padding:0;
     list-style:none;
     min-width: 1020px;
+    text-align: center;
 }
 
 header nav li{
 	font-family: 'Dosis', sans-serif;
-	float: right;
 	width: 120px;
 	font-size: 24px;
-	display: block;
+	display: inline-block;
 	margin-top: 20px;
 	margin-right: 50px;
+
 }
 
 header nav li a:link{
@@ -56,6 +61,8 @@ header nav li a:active{
 /* Main Content */
 #main-content{
 	width: 90%;
+	height: 100%;
+	min-height: 700;
 	max-width: 1025px;
 	margin: -50px auto;
 }
@@ -64,6 +71,7 @@ header nav li a:active{
 #main-content img{
 	display: block;
 	margin: 0 auto;
+	padding-bottom: 25px;
 }
 
 /* Name */
@@ -151,66 +159,50 @@ section#download-instructions{
 }
 
 /* Headshots Page */
-div#headshots {
+#wrapper{
+	display: block;
 	width: 80%;
-	max-width: 960px;
-	display: block;
 	margin: 0 auto;
-	padding: 0;
-	border: 0;
-}
-
-#standout-text-2 {
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-}
-
-div#headshots img:nth-child(3n) {
-  clear: both; 
-}
-
-
-div#headshots section img{
-	max-width: 400px;
-	display: inline-block;
-	padding: 15px;
 	position: relative;
 }
 
-section#headshot-1{
-	margin: 0 auto;
+#headshots{
+	width: 100%;
+	max-width: 1080px;
+	height: 100%;
+	margin: 50 auto;
+	position: absolute;
+	padding-bottom: 50px;
 }
 
-section#headshot-1 img{
+.headshot-pic{
+	margin: 50 auto;
 	float: left;
-	margin: 0 auto;
+	min-height: 350px;
+	max-height: 600px;
+	width: 50%;
+	height: 45%;
+	display: block;
+	overflow: hidden;
 }
 
-section#headshot-2 img{
-	width: 250px;
-	height: 350px;
-	float: right;
-	margin: 0 auto;
-
+.headshot-pic img{
+	display: block;
+	max-width: 90%;
+	margin: 50px auto;
 }
 
-section#headshot-3 img{
-	float: left;	
-	margin: 0 auto;
-
+section#headshots article:nth-child(3){
+	clear: both;
 }
 
-section#headshot-4 img{
-	float: right;
-	margin: 0 auto;
+#sub-title{
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 36px;
 }
 
-#standout-text-2{
-	font-size: 32px;
-	color: #56080d;
-	font-weight: bold;
-}
 
 
 
