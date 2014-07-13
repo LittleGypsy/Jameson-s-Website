@@ -166,6 +166,7 @@ section#download-instructions{
 	position: relative;
 }
 
+<<<<<<< HEAD
 #headshots{
 	width: 100%;
 	max-width: 1080px;
@@ -173,6 +174,34 @@ section#download-instructions{
 	margin: 50 auto;
 	position: absolute;
 }
+=======
+/* Resume Page */
+#resume {
+	background-color: silver;
+}
+
+/* Resume Image */
+#resume-pdf img{
+	max-width: 1080px;
+	max-height: 1000px;
+	margin: 10px auto;
+	display: block;
+	border: 15px;
+	border-style: solid;
+	border-color: black;
+}
+
+/* Download Instructions */
+section#download-instructions{
+	margin: 0px 0px 15px 0px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 900;
+	font-style: italic;
+}
+
+>>>>>>> Sub-space-Additions
 
 .headshot-pic{
 	margin: 50 auto 75 auto;
