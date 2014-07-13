@@ -37,8 +37,8 @@ header nav li{
 	font-size: 24px;
 	display: inline-block;
 	margin-top: 20px;
-	margin-right: 50px;
-
+	margin-right: 25px;
+	margin-left: 25px;
 }
 
 header nav li a:link{
@@ -125,7 +125,7 @@ section.backdrop {
 }
 
 /* Bolded Par of About Me Write-Up */
-#standout-text {
+#standout {
 	font-size: 32px;
 	color: #56080d;
 	font-weight: bold;
