@@ -27,13 +27,13 @@ header ul{
     margin:0;
     padding:0;
     list-style:none;
-    min-width: 1020px;
+    min-width: 1200px;
     text-align: center;
 }
 
 header nav li{
 	font-family: 'Dosis', sans-serif;
-	width: 120px;
+	width: 115px;
 	font-size: 24px;
 	display: inline-block;
 	margin-top: 20px;
@@ -205,6 +205,21 @@ section#headshots article:nth-child(3){
 }
 
 /*News Page*/
+#upcoming img{
+	float: left;
+	max-width: 450px;
+	max-height: 675px;
+	margin: 10px;
+}
+
+#upcoming{
+	max-width: 500px;
+}
+
+#upcoming p{
+	font-size: 24px;
+	margin-right: 
+}
 
 
 
